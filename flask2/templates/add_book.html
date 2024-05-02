@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Add Book Page {% endblock %}
+
+{% block content %}
+<h1>Please,click here to add a book in a book page</h1>
+<form action="{{ url_for('add_book') }}" method="GET" >
+    <button>click</button>
+</form>
+
+
+
+{% endblock %}
